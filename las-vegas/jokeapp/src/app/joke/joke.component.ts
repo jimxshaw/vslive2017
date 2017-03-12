@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Joke} from './models/joke.model';
 
 @Component({
   selector: 'app-joke',
@@ -7,11 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JokeComponent implements OnInit {
 
-  private message: string = "hello earth ";
+  private joke: Joke;
 
   constructor() {
-    let date = new Date();
-    this.message += date.toDateString();
+    this.joke = new Joke(1, "Why did the baby cross the road?", "Because it was stapled to the chicken!", [], 0, 0);
   }
 
   ngOnInit() {
