@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+
 
 @Component({
   selector: 'app-upvote',
@@ -6,8 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./upvote.component.css']
 })
 export class UpvoteComponent implements OnInit {
+  @Input() votes: number;
+
+  @Output() incrementVotes = new EventEmitter();
 
   constructor() { }
+
+  incrementVoteCount() {
+    this.incrementVotes.emit();
+  }
 
   ngOnInit() {
   }
