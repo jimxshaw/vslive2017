@@ -12,7 +12,8 @@ export class JokeComponent implements OnInit {
 
   constructor() {
     this.joke = new Joke(1, "Why did the baby cross the road?", "Because it was stapled to the chicken!", [], 0, 0);
-  }
+
+}
 
   ngOnInit() {
   }
