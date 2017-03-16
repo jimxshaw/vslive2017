@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" data-ng-app="appMain">
+    <head>
+        <title></title>
+        <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body data-ng-controller="homePageViewModel">
+        <h2>{{ headingCaption }}</h2>
+        <br/>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+            </thead>
+            <tbody ng-repeat="p in people">
+                <tr>
+                    <td>
+                        <a href="#" ng-click="showPerson(p)">select</a>
+                    </td>
+                    <td>{{ p.FirstName }}</td>
+                    <td>{{ p.LastName }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+
+        <script src="Scripts/angular.min.js"></script>
+        <script src="Scripts/angular-route.min.js"></script>
+        <script src="Scripts/App.js"></script>
+    </body>
+</html>

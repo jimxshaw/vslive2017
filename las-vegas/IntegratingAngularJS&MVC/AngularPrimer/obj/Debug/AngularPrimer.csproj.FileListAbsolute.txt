@@ -1,0 +1,5 @@
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\AngularPrimer\bin\AngularPrimer.dll
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\AngularPrimer\bin\AngularPrimer.pdb
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\AngularPrimer\obj\Debug\AngularPrimer.csprojResolveAssemblyReference.cache
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\AngularPrimer\obj\Debug\AngularPrimer.dll
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\AngularPrimer\obj\Debug\AngularPrimer.pdb

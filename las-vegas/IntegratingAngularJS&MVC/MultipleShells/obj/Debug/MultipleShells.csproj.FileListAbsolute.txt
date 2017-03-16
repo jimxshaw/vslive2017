@@ -1,0 +1,5 @@
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\MultipleShells\bin\MultipleShells.dll
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\MultipleShells\bin\MultipleShells.pdb
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\MultipleShells\obj\Debug\MultipleShells.csprojResolveAssemblyReference.cache
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\MultipleShells\obj\Debug\MultipleShells.dll
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\MultipleShells\obj\Debug\MultipleShells.pdb

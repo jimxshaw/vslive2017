@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" data-ng-app="appProduct" data-ng-controller="productIndexViewModel">
+    <head>
+        <title>{{ headingCaption }}</title>
+        <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2>{{ headingCaption }}</h2>
+        <hr />
+        <div class="row">
+            <div class="col-md-9">
+                <div ng-view></div>
+            </div>
+            <div class="col-md-3">
+                <a href="/product/list">
+                    Go to product list view
+                </a>
+                <br />
+                <a href="/product/detail">
+                    Go to product detail view
+                </a>
+                <br />
+                <a href="/CustomerIndex.html" target="_self">
+                    Go to the customer home page
+                </a>
+            </div>
+        </div>
+
+        <script src="Scripts/angular.min.js"></script>
+        <script src="Scripts/angular-route.min.js"></script>
+        <script src="Scripts/AppProduct.js"></script>
+    </body>
+</html>

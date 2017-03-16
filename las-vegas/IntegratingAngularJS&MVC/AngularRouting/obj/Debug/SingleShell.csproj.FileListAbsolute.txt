@@ -1,0 +1,5 @@
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\AngularRouting\bin\AngularRouting.dll
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\AngularRouting\bin\AngularRouting.pdb
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\AngularRouting\obj\Debug\SingleShell.csprojResolveAssemblyReference.cache
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\AngularRouting\obj\Debug\AngularRouting.dll
+C:\Users\jimxs\Desktop\Integrating AngularJS and MVC\Source\AngularRouting\obj\Debug\AngularRouting.pdb

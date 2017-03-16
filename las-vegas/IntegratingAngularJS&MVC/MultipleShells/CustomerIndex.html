@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" data-ng-app="appCustomer" data-ng-controller="customerIndexViewModel">
+    <head>
+        <title>{{ headingCaption }}</title>
+        <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2>{{ headingCaption }}</h2>
+        <hr />
+        <div class="row">
+            <div class="col-md-3">
+                <a href="/customer/list">
+                    Go to customer list view
+                </a>
+                <br />
+                <a href="/customer/detail">
+                    Go to customer detail view
+                </a>
+                <br />
+                <a href="/ProductIndex.html" target="_self">
+                    Go to the product home page (link-based)
+                </a>
+                <br />
+                <a href="#" ng-click="ProductHome()">
+                    Go to the product home page
+                </a>
+            </div>
+            <div class="col-md-9">
+                <div ng-view></div>
+            </div>
+        </div>
+
+        <script src="Scripts/angular.min.js"></script>
+        <script src="Scripts/angular-route.min.js"></script>
+        <script src="Scripts/AppCustomer.js"></script>
+    </body>
+</html>
